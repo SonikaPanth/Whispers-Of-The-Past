@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "@vue/cli": "^5.0.8"
-  }
-  ,
+  },
   "scripts": {
-  "build": "vue-cli-service build"
-}
-
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
 }
